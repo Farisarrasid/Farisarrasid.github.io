@@ -1,9 +1,18 @@
 const CACHE_NAME = 'SW-001';
 const toCache = [
-  '/',
-  'manifest.json',
-  'assets/js/register.js',
-  'assets/images/icon.png',
+  "/",
+  "manifest.json",
+  "assets/js/register.js",
+  "assets/css/bootstrap.css",
+  "assets/css/bootstrap.css.map",
+  "assets/css/styles.css",
+  "assets/image/1.png",
+  "assets/image/1.png",
+  "assets/js/bootstrap.js",
+  "assets/js/bootstrap.js.map",
+  "assets/js/jquery-3.3.1.slim.min.js",
+  "assets/js/script.js",
+  "index.html",
 ];
 self.addEventListener("beforeinstallprompt", (e) => {
   e.preventDefault();
